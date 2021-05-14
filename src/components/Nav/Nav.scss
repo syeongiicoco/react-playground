@@ -1,0 +1,19 @@
+.flexNavbar {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  justify-content: center;
+  background-color: aqua;
+
+  .flexInNavbar {
+    display: flex;
+    background-color: blueviolet;
+    .NavBox {
+      text-align: center;
+      width: 100px;
+      .animal {
+        font-size: 12px;
+      }
+    }
+  }
+}
